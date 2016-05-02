@@ -9,6 +9,7 @@
         ],
         "sourceMaps": "inline"
     },
+    "bugs": "https://github.com/ibi-group/isotropic-asap/issues",
     "contributors": [
         "Duane Sibilly <duane.sibilly@ibigroup.com>"
     ],
@@ -44,9 +45,11 @@
         },
         "root": true
     },
+    "homepage": "https://github.com/ibi-group/isotropic-asap",
     "license": "BSD-3-Clause",
     "main": "lib/asap.js",
     "name": "isotropic-asap",
+    "repository": "ibi-group/isotropic-asap",
     "scripts": {
         "build": "babel js -d lib",
         "lint": "eslint js test",

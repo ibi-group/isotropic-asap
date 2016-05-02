@@ -9,6 +9,7 @@
         ],
         "sourceMaps": "inline"
     },
+    "bugs": "https://github.com/ibi-group/isotropic-asap/issues",
     "contributors": [
         "Duane Sibilly <duane.sibilly@ibigroup.com>"
     ],
@@ -44,9 +45,11 @@
         },
         "root": true
     },
+    "homepage": "https://github.com/ibi-group/isotropic-asap",
     "license": "BSD-3-Clause",
     "main": "lib/asap.js",
     "name": "isotropic-asap",
+    "repository": "ibi-group/isotropic-asap",
     "scripts": {
         "build": "babel js -d lib",
         "lint": "eslint js test",
@@ -55,5 +58,5 @@
         "pretest": "npm run lint",
         "test": "babel-node ./node_modules/.bin/babel-istanbul test _mocha"
     },
-    "version": "0.0.0"
+    "version": "0.1.0"
 }
